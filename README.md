@@ -1,4 +1,4 @@
-## Cloud gateway microservice
+## Eureka Server Microserve integration project
 
 ### 1. Description
 
