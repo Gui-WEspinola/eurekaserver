@@ -2,13 +2,15 @@
 
 ### 1. Description
 
-mscloudgateway is one of a set of applications made to test developing in a microservice oriented environement.
-In the current repository, we are referencing each individual application via load balancing. The APIs were designed to
-control Customer and Credit Card, and implement logic to check available cards for a given customer.
+This is a project to train and implement a system of APIs working in a microservice oriented environment.
+In the current repository, we are creating a server to control access to individual applications. The APIs were designed to
+with a Customer and Credit Card relationship in mind, and the goal is to implement logic to check available cards 
+for a given customer, and issue news cards if possible.
 
-The goal of whole project is to practice development using Java Spring Cloud framework, while integrating microservices.
+As a whole, the main goal of the project is to practice development using Java Spring Cloud framework, while integrating various
+microservices and technologies.
 
-The following sections will provide information on how to run the API and how to configure the environment.
+### 2. Links for other Microservices
 
 [Gateway for microservice integration](https://github.com/Gui-WEspinola/mscloudgateway)
 
@@ -18,15 +20,15 @@ The following sections will provide information on how to run the API and how to
 
 [Microservice for Credit Rating](https://github.com/Gui-WEspinola/ms-avaliador-credito)
 
-### 2. Features
+### 3. Features
 
 Some of the technologies used to develop and test the current applications are:
 
 1. Spring Cloud with microservices integration, making use of Spring Cloud OpenFeign.
 2. **RabbitMQ** implementing an asynchronous messaging system.
 3. Security using **Oauth2** and **JWT** token, while using **Keycloak** to manage credentials.
-4. *Docker* being used to run external applications.
+4. **Docker** implemented on all applications.
 5. **Postman/Insomnia** to test endpoints and requisitions.
-6. Logs and metrics via **TBD**.
+6. Logs implemented.
 
 
