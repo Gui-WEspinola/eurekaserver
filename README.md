@@ -28,7 +28,8 @@ Some of the technologies used to develop and test the current applications are:
 2. **RabbitMQ** implementing an asynchronous messaging system.
 3. Security using **Oauth2** and **JWT** token, while using **Keycloak** to manage credentials.
 4. **Docker** implemented on all applications.
-5. **Postman/Insomnia** to test endpoints and requisitions.
-6. Logs implemented.
+5. Swagger UI implemented for documentation and endpoint testing;
+6. **Postman/Insomnia** to test endpoints and requisitions.
+7. Logs implemented.
 
 
